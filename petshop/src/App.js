@@ -1,3 +1,4 @@
+
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
@@ -6,9 +7,13 @@ import BanhoTosa from './pages/BanhoTosa';
 import HotelResort from './pages/HotelResort';
 import Adestramento from './pages/Adestramento';
 import Contato from './pages/Contato';
+import NavbarMenu from './pages/NavbarMenu';
+
 function App() {
   return (
+
     <Router>
+      <NavbarMenu />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/banho-e-tosa' element={<BanhoTosa />}/>

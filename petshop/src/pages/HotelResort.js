@@ -1,8 +1,8 @@
-function BanhoTosa(){
+function HotelResort(){
     return(
         <div>
-            
+            Hotel resort
         </div>
     )
 }
-export default BanhoTosa
+export default HotelResort

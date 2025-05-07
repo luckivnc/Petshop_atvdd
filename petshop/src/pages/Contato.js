@@ -1,7 +1,7 @@
 function BanhoTosa(){
     return(
         <div>
-            
+           Contato 
         </div>
     )
 }
